@@ -13,7 +13,7 @@ scanf("%d",&n);
 printf("La serie de movimientos a realizar son:\n");
 hanoi(n,torre_a,torre_b,torre_c);
 }
-void hanoi(int n,char torre_a,char torre_b, char torre_c);
+void hanoi(int n,char torre_a,char torre_b, char torre_c)
 {
 	if(n==1){
 		printf("%c->%c",torre_a,torre_c);
